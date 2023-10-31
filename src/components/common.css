@@ -1,0 +1,373 @@
+#SECTION1 {
+	height: 85.3px;
+	background-color: #0e182b;
+}
+.ladi-section {
+	margin: 0 auto;
+	position: relative;
+}
+.ladi-section .ladi-section-background {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	pointer-events: none;
+	overflow: hidden;
+}
+.ladi-paragraph {
+	font-family: QtZmydGFhLVJlZVsYXIudHRm;
+	font-size: 13px;
+	line-height: 1.6;
+	color: rgb(235, 185, 43);
+}
+.ladi-group {
+	display: flex;
+	justify-content: space-around;
+	justify-items: center;
+}
+.group18-image {
+	width: 100px;
+	height: 36px;
+}
+#GROUP18 {
+	display: flex;
+	justify-content: space-between;
+	justify-items: center;
+	padding: 5px;
+}
+.group18-icon {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: 1px solid rgb(235, 185, 43);
+}
+.group18-text {
+	font-size: 18px;
+	color: rgb(235, 185, 43);
+}
+#SECTION9 {
+	height: 38px;
+	border: 1px solid red;
+	margin-bottom: 1px;
+	display: flex;
+	align-items: center;
+}
+.section9-text {
+	font-size: 11px;
+}
+#SECTION12 {
+	background-image: url(https://w.ladicdn.com/s768x731/5ea845b95da1a2557f302daa/43eae98ded2f4b68bde095f12daf2edc3763979472bb2e8353da3ad3-20220909081241.jpg);
+	background-size: cover;
+	background-origin: content-box;
+	background-position: 50% 0%;
+	background-repeat: repeat;
+	background-attachment: scroll;
+	height: 730px;
+	position: relative;
+}
+.section12-text {
+	display: flex;
+	flex-direction: column;
+}
+.section12-text-2 {
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 1.6;
+	color: rgb(235, 185, 43);
+	text-align: center;
+	-webkit-text-stroke: 2px rgb(0, 0, 0);
+	display: inline-block;
+	word-break: break-word;
+	background-size: cover;
+	background-position: center center;
+}
+.section12-text-1 {
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 1.6;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-image: radial-gradient(circle, rgb(255, 255, 255), rgb(218, 189, 161));
+}
+.section12-text-3 {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+}
+.section12-img {
+	width: 200px;
+	height: 30px;
+	margin: auto;
+}
+.section12-sale {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100px;
+}
+.section12-sale img {
+	width: 148.393px;
+	height: 54.633px;
+}
+.section12-sale div {
+	font-family: Montserrat, sans-serif;
+	font-size: 85px;
+	font-weight: bold;
+	line-height: 1.6;
+	color: rgb(0, 0, 0);
+	text-align: left;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-image: radial-gradient(circle, rgb(243, 210, 180), rgb(255, 255, 255));
+}
+.section12-sale .percent {
+	font-size: 45px;
+	align-self: flex-end;
+	padding-bottom: 18px;
+}
+.section12-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.section12-button div {
+	height: 30px;
+	width: 130px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.section12-button .first {
+	background-color: #545454;
+	color: white;
+	text-decoration-line: line-through;
+}
+.section12-button .last {
+	background-color: white;
+	color: red;
+	border: 1px solid red;
+}
+.section12-order {
+	animation-name: pulse;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	transition: all 150ms linear 0s;
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+.section12-order button {
+	background-image: linear-gradient(rgb(248, 54, 0), rgb(249, 212, 35));
+	width: 177px !important;
+	height: 43px;
+	border-radius: 20px;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1.6;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	border: none;
+}
+.section12-shake {
+	animation-name: shake;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	transition: all 150ms linear 0s;
+	display: flex;
+	align-items: center;
+}
+.section12-shake svg {
+	width: 20px;
+	height: 20px;
+	fill: white;
+}
+.section12-ab-text {
+	position: absolute;
+	bottom: 40px;
+	left: 55px;
+	display: flex;
+	gap: 18px;
+}
+.section12-ab-text div {
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1.6;
+	color: rgb(235, 185, 43);
+	text-align: center;
+}
+
+#SECTION52 {
+	height: 550px;
+	background-image: url('https://w.ladicdn.com/s750x900/5ea845b95da1a2557f302daa/306decb6b5cdb143cf09149a4fb45b8278246adc8a645b0817d9685a-20220909081242.jpg');
+	background-size: cover;
+	background-origin: content-box;
+	background-position: 50% 0%;
+	background-repeat: repeat;
+	background-attachment: scroll;
+	position: relative;
+}
+.section52-title {
+	font-family: Montserrat, sans-serif;
+	font-size: 18px;
+	line-height: 1.6;
+	color: rgb(235, 185, 43);
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+	word-break: break-word;
+	background-size: cover;
+	background-position: center center;
+	padding-top: 18px;
+}
+.section52-title1,
+.section52-title2 {
+	font-family: Montserrat, sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 1.6;
+	color: rgb(235, 185, 43);
+	text-align: center;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-image: radial-gradient(circle, rgb(243, 210, 180), rgb(255, 255, 255));
+}
+.section52-title2 {
+	font-size: 18px;
+}
+.section52-title3 {
+	position: absolute;
+	bottom: 85px;
+	left: 32px;
+	font-family: Montserrat, sans-serif;
+	font-size: 19px;
+	line-height: 1.6;
+	color: rgb(235, 185, 43);
+	text-align: center;
+	font-weight: bold;
+	width: 90px;
+}
+.section52-title4 {
+	position: absolute;
+	bottom: 37px;
+	left: 157px;
+	font-family: Montserrat, sans-serif;
+	font-size: 17px;
+	line-height: 1.3;
+	color: rgb(235, 185, 43);
+	text-align: center;
+	font-weight: bold;
+	width: 90px;
+}
+.section52-title5 {
+	position: absolute;
+	bottom: 55px;
+	left: 300px;
+	font-family: Montserrat, sans-serif;
+	font-size: 17px;
+	line-height: 1.3;
+	color: rgb(235, 185, 43);
+	text-align: center;
+	font-weight: bold;
+	width: 90px;
+}
+#SECTION60 {
+	background-image: url(https://w.ladicdn.com/s768x1182/5ea845b95da1a2557f302daa/e2af77c474b6c8123c563c22f98656ec1f7b783748f4e8250fee6d31-20220909081328.jpg);
+	background-size: cover;
+	background-origin: content-box;
+	background-position: 50% 0%;
+	background-repeat: repeat;
+	background-attachment: scroll;
+	height: 1182px;
+}
+.section60-container {
+	width: 404px;
+	height: 645px;
+	background-color: rgb(84, 84, 84);
+	border-radius: 15px;
+	margin: auto;
+}
+
+#VIDEO62 {
+	width: 392.345px;
+	height: 362.919px;
+	position: relative;
+	top: 10px;
+	left: 4px;
+}
+.section60-text-container {
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+	gap: 10px;
+	padding-left: 15px;
+}
+.section60-item p {
+	font-family: Montserrat, sans-serif;
+	font-size: 16px;
+	line-height: 1.6;
+	color: rgb(245, 223, 199);
+	text-align: left;
+	margin: 0;
+}
+.section60-item {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.section60-item svg {
+	width: 22px;
+	height: 22px;
+	fill: rgb(245, 223, 199);
+}
+
+@keyframes pulse {
+	0% {
+		-webkit-transform: scale(1);
+		-ms-transform: scale(1);
+		transform: scale(1);
+	}
+
+	50% {
+		-webkit-transform: scale(1.1);
+		-ms-transform: scale(1.1);
+		transform: scale(1.1);
+	}
+	100% {
+		-webkit-transform: scale(1);
+		-ms-transform: scale(1);
+		transform: scale(1);
+	}
+}
+@keyframes shake {
+	0%,
+	100% {
+		-webkit-transform: translateX(0);
+		-ms-transform: translateX(0);
+		transform: translateX(0);
+	}
+	10%,
+	30%,
+	50%,
+	70%,
+	90% {
+		-webkit-transform: translateX(-10px);
+		-ms-transform: translateX(-10px);
+		transform: translateX(-10px);
+	}
+	20%,
+	40%,
+	60%,
+	80% {
+		-webkit-transform: translateX(10px);
+		-ms-transform: translateX(10px);
+		transform: translateX(10px);
+	}
+}

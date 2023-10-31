@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Oswald:wght@400;600;700&display=swap');
+
 body {
 	/* font-family: 'Open Sans', sans-serif; */
 	font-family: 'Oswald', sans-serif;
@@ -31,6 +33,34 @@ body {
 }
 .input-container {
 	width: 70%;
+}
+.input-container-tel {
+	width: 70%;
+	display: flex;
+	align-items: center;
+	max-width: 300px;
+	background: #fff;
+	border: 1px solid #a0a0a0;
+	border-radius: 6px;
+	padding-left: 0.5rem;
+	overflow: hidden;
+	font-family: sans-serif;
+}
+.input-container-tel.error {
+	border: 2px solid #e20000 !important;
+}
+.input-container-tel .prefix {
+	font-weight: 300;
+	font-size: 14px;
+	color: #999;
+}
+.input-container-tel input {
+	flex-grow: 1;
+	font-size: 14px;
+	background: #fff;
+	border: none;
+	outline: none;
+	padding: 0.5rem;
 }
 input {
 	display: block;
@@ -74,7 +104,7 @@ input.error {
 	border-radius: 6px;
 	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-button {
+/* button {
 	height: unset;
 	min-height: 50px;
 	font-size: 20px;
@@ -90,4 +120,4 @@ button {
 	background-color: black;
 	color: white;
 	cursor: pointer;
-}
+} */
