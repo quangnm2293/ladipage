@@ -4,6 +4,7 @@ body {
 	/* font-family: 'Open Sans', sans-serif; */
 	font-family: 'Oswald', sans-serif;
 	box-sizing: border-box;
+	margin: 0;
 }
 .container {
 	width: 420px;
@@ -83,6 +84,12 @@ input {
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
+	padding: 15px 5px;
+}
+.order-container {
+	background-color: white;
+	border-radius: 10px;
+	margin: 0 7px;
 }
 input.error {
 	border: 2px solid #e20000 !important;
@@ -104,13 +111,16 @@ input.error {
 	border-radius: 6px;
 	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-/* button {
+#SECTION225 {
+	background-color: #173157;
+	height: 1005px;
+}
+.form-container button {
 	height: unset;
 	min-height: 50px;
 	font-size: 20px;
 	font-weight: 500;
 	padding: 10px 0;
-	margin: 20px 0;
 	width: 100% !important;
 	border: none;
 	text-align: center;
@@ -120,4 +130,4 @@ input.error {
 	background-color: black;
 	color: white;
 	cursor: pointer;
-} */
+}

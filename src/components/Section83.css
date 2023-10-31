@@ -57,6 +57,16 @@
 	height: 761px;
 	position: relative;
 }
+#SECTION261 {
+	background-image: url(https://w.ladicdn.com/s750x1150/5ea845b95da1a2557f302daa/9b4ab7a251bd02035db73641338d7500016be3c522112d19608129ae-20220909081234.jpg);
+	background-size: cover;
+	background-origin: content-box;
+	background-position: 50% 0%;
+	background-repeat: repeat;
+	background-attachment: scroll;
+	height: 835px;
+	position: relative;
+}
 #SECTION91 div {
 	padding: 40px 20px;
 }
@@ -398,4 +408,91 @@
 	justify-content: center;
 	gap: 20px;
 	margin-top: 20px;
+}
+.section261-box {
+	width: 196px;
+	height: 85.5px;
+	position: absolute;
+	background-color: rgb(245, 223, 199);
+	border-radius: 15px;
+	top: 24px;
+	left: 12px;
+	font-family: Montserrat, sans-serif;
+	font-size: 23px;
+	font-weight: bold;
+	line-height: 1.6;
+	color: rgb(23, 49, 87);
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#SECTION266 {
+	background-color: #173157;
+	height: 550px;
+	overflow: hidden;
+}
+#SECTION269 {
+	background-color: #173157;
+	height: 450px;
+	overflow: hidden;
+	padding: 0px 20px;
+}
+.section266-text {
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 1.6;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	padding: 10px;
+}
+.section269-text {
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 1.6;
+	color: rgb(255, 255, 255);
+	/* text-align: center; */
+}
+.section269-text1,
+.section269-text2 {
+	font-family: Montserrat, sans-serif;
+	font-size: 14px;
+	line-height: 1.6;
+	font-weight: 400;
+	color: rgb(255, 255, 255);
+	text-align: left;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-bottom: 10px;
+}
+.section269-icon {
+	width: 21px;
+	height: 21px;
+}
+.section269-text-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.section269-line {
+	width: 100%;
+	height: 1px;
+	background-color: #ffffff;
+	margin: 20px 0;
+}
+.section269-button-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	bottom: 10px;
+	left: calc(100% / 2 - 65px);
+}
+.section269-button-container button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	width: 200 !important;
 }

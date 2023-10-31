@@ -16,7 +16,7 @@ const Section60 = () => {
 						title="PERFUME AROMATHERAPY"
 						width="640"
 						height="360"
-						src="https://www.youtube.com/embed/_WCGhRgkDmQ?autoplay=1&mute=1"
+						src="https://www.youtube.com/embed/_WCGhRgkDmQ?autoplay=1&mute=1&loop=1"
 					></iframe>
 				</div>
 				<div className="section60-text-container">

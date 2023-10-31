@@ -23,213 +23,249 @@ const FormOrder = () => {
 		console.log(user);
 	};
 	return (
-		<>
-			<div className="title">Order on Cash on Delivery</div>
-			<form action="" className="form-container">
-				<div className="form-group">
-					<div className="label">
-						First Name <span>*</span>
-					</div>
-					<div className="input-container">
-						<input
-							type="text"
-							placeholder="First Name"
-							name="firstName"
-							onChange={handleChangeInput}
-							onBlur={handleBlurInput}
-							className={user.errors.includes('firstName') ? 'error' : ''}
-							required
-						/>
-					</div>
+		<div id="SECTION225">
+			<div className="section12-text" style={{ marginBottom: 20, paddingTop: 20 }}>
+				<div className="section12-text-1">
+					PREMIUM CAR PERFUME
+					<br />
+				</div>
+				<div className="section12-text-2">
+					AROMATHERAPY
+					<br />
+				</div>
+				<div className="section12-text-3">
+					ELEGANCE &amp; CLASS
+					<br />
 				</div>
 
-				<div className="form-group">
-					<div className="label">
-						Last Name <span>*</span>
-					</div>
-					<div className="input-container">
-						<input
-							type="text"
-							placeholder="Last Name"
-							name="lastName"
-							onChange={handleChangeInput}
-							onBlur={handleBlurInput}
-							className={user.errors.includes('lastName') ? 'error' : ''}
-							required
-						/>
-					</div>
+				<img
+					src="https://w.ladicdn.com/s550x350/5ea845b95da1a2557f302daa/2-20220909093224.png"
+					alt=""
+					className="section12-img"
+				/>
+
+				<div className="section12-sale">
+					<img
+						src="https://w.ladicdn.com/s450x400/5ea845b95da1a2557f302daa/3-20220909093356.png"
+						alt=""
+					/>
+					<div>50</div>
+					<div className="percent">%</div>
 				</div>
 
-				<div className="form-group">
-					<div className="label">
-						Phone <span>*</span>
-					</div>
-					<div
-						className={
-							user.errors.includes('phone')
-								? 'error input-container-tel'
-								: 'input-container-tel'
-						}
-					>
-						<span className="prefix">+91</span>
-						<input
-							type="tel"
-							placeholder="Phone"
-							name="phone"
-							onChange={handleChangeInput}
-							onBlur={handleBlurInput}
-							required
-						/>
-					</div>
+				<div className="section12-button">
+					<div className="first">1.000.000 đ</div>
+					<div className="last">499.000 đ</div>
 				</div>
+			</div>
+			<div className="order-container">
+				<div className="title">Order on Cash on Delivery</div>
+				<form action="" className="form-container">
+					<div className="form-group">
+						<div className="label">
+							First Name <span>*</span>
+						</div>
+						<div className="input-container">
+							<input
+								type="text"
+								placeholder="First Name"
+								name="firstName"
+								onChange={handleChangeInput}
+								onBlur={handleBlurInput}
+								className={user.errors.includes('firstName') ? 'error' : ''}
+								required
+							/>
+						</div>
+					</div>
 
-				<div className="form-group">
-					<div className="label">
-						Flat, House no., Building, Company, Apartment <span>*</span>
+					<div className="form-group">
+						<div className="label">
+							Last Name <span>*</span>
+						</div>
+						<div className="input-container">
+							<input
+								type="text"
+								placeholder="Last Name"
+								name="lastName"
+								onChange={handleChangeInput}
+								onBlur={handleBlurInput}
+								className={user.errors.includes('lastName') ? 'error' : ''}
+								required
+							/>
+						</div>
 					</div>
-					<div className="input-container">
-						<input
-							type="text"
-							placeholder="Flat, House no., Building, Company, Apartment "
-							name="flat"
-							onChange={handleChangeInput}
-							onBlur={handleBlurInput}
-							className={user.errors.includes('flat') ? 'error' : ''}
-							required
-						/>
-					</div>
-				</div>
 
-				<div className="form-group">
-					<div className="label">
-						Area, Street, Sector, Village <span>*</span>
-					</div>
-					<div className="input-container">
-						<input
-							type="text"
-							placeholder="Area, Street, Sector, Village"
-							name="area"
-							onChange={handleChangeInput}
-							onBlur={handleBlurInput}
-							className={user.errors.includes('area') ? 'error' : ''}
-							required
-						/>
-					</div>
-				</div>
-
-				<div className="form-group">
-					<div className="label">
-						Landmark <span>*</span>
-					</div>
-					<div className="input-container">
-						<input
-							type="text"
-							placeholder="Ghar ke aaju baju koi famous jagah"
-							name="landmark"
-							onChange={handleChangeInput}
-							onBlur={handleBlurInput}
-							className={user.errors.includes('landmark') ? 'error' : ''}
-							required
-						/>
-					</div>
-				</div>
-
-				<div className="form-group">
-					<div className="label">
-						City <span>*</span>
-					</div>
-					<div className="input-container">
-						<input
-							type="text"
-							placeholder="City"
-							name="city"
-							onChange={handleChangeInput}
-							onBlur={handleBlurInput}
-							className={user.errors.includes('city') ? 'error' : ''}
-							required
-						/>
-					</div>
-				</div>
-
-				<div className="form-group">
-					<div className="label">
-						Pin Code <span>*</span>
-					</div>
-					<div className="input-container">
-						<input
-							type="text"
-							placeholder="Pin Code"
-							name="pinCode"
-							onChange={handleChangeInput}
-							onBlur={handleBlurInput}
-							className={user.errors.includes('pinCode') ? 'error' : ''}
-							required
-						/>
-					</div>
-				</div>
-
-				<div className="form-group">
-					<div className="label">
-						State <span>*</span>
-					</div>
-					<div className="input-container">
-						<select
-							placeholder="Select your State"
-							required="required"
-							name="select90"
-							id="es-select90"
-							className="es-select"
-							data-gtm-form-interact-field-id="3"
-							defaultValue={'Andhra Pradesh'}
+					<div className="form-group">
+						<div className="label">
+							Phone <span>*</span>
+						</div>
+						<div
+							className={
+								user.errors.includes('phone')
+									? 'error input-container-tel'
+									: 'input-container-tel'
+							}
 						>
-							<option disabled="disabled">Select your State</option>
-							<option>Andhra Pradesh</option>
-							<option>Andaman and Nicobar Islands</option>
-							<option>Arunachal Pradesh</option>
-							<option>Assam</option>
-							<option>Bihar</option>
-							<option>Chandigarh</option>
-							<option>Chhattisgarh</option>
-							<option>Daman &amp; Diu</option>
-							<option>Delhi</option>
-							<option>Goa</option>
-							<option>Gujarat</option>
-							<option>Haryana</option>
-							<option>Himachal Pradesh</option>
-							<option>Jammu and Kashmir</option>
-							<option>Jharkhand</option>
-							<option>Karnataka</option>
-							<option>Kerala</option>
-							<option>Ladakh</option>
-							<option>Lakshadweep</option>
-							<option>Madhya Pradesh</option>
-							<option>Maharashtra</option>
-							<option>Manipur</option>
-							<option>Meghalaya</option>
-							<option>Mizoram</option>
-							<option>Nagaland</option>
-							<option>Odisha</option>
-							<option>Puducherry</option>
-							<option>Punjab</option>
-							<option>Rajasthan</option>
-							<option>Sikkim</option>
-							<option>Tamil Nadu</option>
-							<option>Telangana</option>
-							<option>Tripura</option>
-							<option>Uttar Pradesh</option>
-							<option>Uttarakhand</option>
-							<option>West Bengal</option>
-						</select>
+							<span className="prefix">+91</span>
+							<input
+								type="tel"
+								placeholder="Phone"
+								name="phone"
+								onChange={handleChangeInput}
+								onBlur={handleBlurInput}
+								required
+							/>
+						</div>
 					</div>
-				</div>
 
-				<div className="form-group">
-					<button onClick={handleSubmit} type="submit">
-						BUY IT NOW
-					</button>
-				</div>
-			</form>
-		</>
+					<div className="form-group">
+						<div className="label">
+							Flat, House no., Building, Company, Apartment <span>*</span>
+						</div>
+						<div className="input-container">
+							<input
+								type="text"
+								placeholder="Flat, House no., Building, Company, Apartment "
+								name="flat"
+								onChange={handleChangeInput}
+								onBlur={handleBlurInput}
+								className={user.errors.includes('flat') ? 'error' : ''}
+								required
+							/>
+						</div>
+					</div>
+
+					<div className="form-group">
+						<div className="label">
+							Area, Street, Sector, Village <span>*</span>
+						</div>
+						<div className="input-container">
+							<input
+								type="text"
+								placeholder="Area, Street, Sector, Village"
+								name="area"
+								onChange={handleChangeInput}
+								onBlur={handleBlurInput}
+								className={user.errors.includes('area') ? 'error' : ''}
+								required
+							/>
+						</div>
+					</div>
+
+					<div className="form-group">
+						<div className="label">
+							Landmark <span>*</span>
+						</div>
+						<div className="input-container">
+							<input
+								type="text"
+								placeholder="Ghar ke aaju baju koi famous jagah"
+								name="landmark"
+								onChange={handleChangeInput}
+								onBlur={handleBlurInput}
+								className={user.errors.includes('landmark') ? 'error' : ''}
+								required
+							/>
+						</div>
+					</div>
+
+					<div className="form-group">
+						<div className="label">
+							City <span>*</span>
+						</div>
+						<div className="input-container">
+							<input
+								type="text"
+								placeholder="City"
+								name="city"
+								onChange={handleChangeInput}
+								onBlur={handleBlurInput}
+								className={user.errors.includes('city') ? 'error' : ''}
+								required
+							/>
+						</div>
+					</div>
+
+					<div className="form-group">
+						<div className="label">
+							Pin Code <span>*</span>
+						</div>
+						<div className="input-container">
+							<input
+								type="text"
+								placeholder="Pin Code"
+								name="pinCode"
+								onChange={handleChangeInput}
+								onBlur={handleBlurInput}
+								className={user.errors.includes('pinCode') ? 'error' : ''}
+								required
+							/>
+						</div>
+					</div>
+
+					<div className="form-group">
+						<div className="label">
+							State <span>*</span>
+						</div>
+						<div className="input-container">
+							<select
+								placeholder="Select your State"
+								required="required"
+								name="select90"
+								id="es-select90"
+								className="es-select"
+								data-gtm-form-interact-field-id="3"
+								defaultValue={'Andhra Pradesh'}
+							>
+								<option disabled="disabled">Select your State</option>
+								<option>Andhra Pradesh</option>
+								<option>Andaman and Nicobar Islands</option>
+								<option>Arunachal Pradesh</option>
+								<option>Assam</option>
+								<option>Bihar</option>
+								<option>Chandigarh</option>
+								<option>Chhattisgarh</option>
+								<option>Daman &amp; Diu</option>
+								<option>Delhi</option>
+								<option>Goa</option>
+								<option>Gujarat</option>
+								<option>Haryana</option>
+								<option>Himachal Pradesh</option>
+								<option>Jammu and Kashmir</option>
+								<option>Jharkhand</option>
+								<option>Karnataka</option>
+								<option>Kerala</option>
+								<option>Ladakh</option>
+								<option>Lakshadweep</option>
+								<option>Madhya Pradesh</option>
+								<option>Maharashtra</option>
+								<option>Manipur</option>
+								<option>Meghalaya</option>
+								<option>Mizoram</option>
+								<option>Nagaland</option>
+								<option>Odisha</option>
+								<option>Puducherry</option>
+								<option>Punjab</option>
+								<option>Rajasthan</option>
+								<option>Sikkim</option>
+								<option>Tamil Nadu</option>
+								<option>Telangana</option>
+								<option>Tripura</option>
+								<option>Uttar Pradesh</option>
+								<option>Uttarakhand</option>
+								<option>West Bengal</option>
+							</select>
+						</div>
+					</div>
+
+					<div className="form-group">
+						<button onClick={handleSubmit} type="submit">
+							BUY IT NOW
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
 	);
 };
 
