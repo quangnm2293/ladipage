@@ -496,3 +496,6 @@
 	color: white;
 	width: 200 !important;
 }
+.base-data img {
+	width: 420px;
+}

@@ -59,7 +59,7 @@ const Section261 = () => {
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 28.314 28.323"
-							// style="enable-background:new 0 0 28.314 28.323"
+							// id="enable-background:new 0 0 28.314 28.323"
 							xmlSpace="preserve"
 						>
 							<path

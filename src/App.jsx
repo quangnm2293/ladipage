@@ -1,4 +1,5 @@
 import './App.css';
+import BaseData from './components/BaseData';
 import FormOrder from './components/FormOrder';
 import Section1 from './components/Section1';
 import Section108 from './components/Section108';
@@ -18,6 +19,7 @@ function App() {
 			<Section108 />
 			<Section157 />
 			<FormOrder />
+			<BaseData />
 			<Section261 />
 		</div>
 	);
